@@ -1,0 +1,358 @@
+
+/* PINTEREST INSPIRED PURPLE / PINK THEME */
+
+:root {
+  --portfolio-bg: #130d30;
+  --portfolio-card: rgba(31, 22, 62, 0.86);
+  --portfolio-accent: #e9a5ed;
+  --portfolio-blue: #a5baff;
+  --portfolio-text: #ffffff;
+  --portfolio-muted: #e0cfe9;
+}
+
+body {
+  margin: 0;
+  background: #130d30;
+  color: var(--portfolio-text);
+}
+
+/* GRADIENT BACKGROUND FOR ALL PAGES */
+
+.home-page,
+#about,
+#skills,
+.projects-section,
+#certificates,
+#contact {
+  background:
+    radial-gradient(
+      ellipse at 90% 12%,
+      rgba(221, 123, 181, 0.35),
+      transparent 42%
+    ),
+    radial-gradient(
+      ellipse at 5% 65%,
+      rgba(109, 78, 183, 0.45),
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 75% 90%,
+      rgba(98, 126, 212, 0.25),
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #130d30 0%,
+      #291944 38%,
+      #3c285c 65%,
+      #161535 100%
+    ) !important;
+
+  color: #ffffff !important;
+}
+
+/* HEADINGS */
+
+.home-page h1,
+.home-page h2,
+.home-page h3,
+#about h2,
+#skills h2,
+.projects-section h2,
+#certificates h2,
+#contact h2 {
+  color: #ffffff !important;
+}
+
+/* HIGHLIGHT COLORS */
+
+.name,
+.role,
+.section-title span,
+.skills-title span,
+.projects-header h2 span,
+#certificates .section-header h2 span,
+#contact .section-title span {
+  color: #e9a5ed !important;
+}
+
+/* PARAGRAPHS */
+
+.home-page p,
+#about p,
+#skills p,
+.projects-section p,
+#certificates p,
+#contact p {
+  color: #e0cfe9 !important;
+}
+
+/* GLASS EFFECT CARDS */
+
+.home-project-card,
+.home-certificate-card,
+.detail-card,
+.subjects-strip,
+.skill-card,
+.proj-card,
+#certificates .proj-card,
+#contact .contact-info-panel,
+#contact .contact-form-panel {
+  background: rgba(31, 22, 62, 0.86) !important;
+  border: 1px solid rgba(233, 165, 237, 0.25) !important;
+  box-shadow: 0 12px 35px rgba(9, 4, 28, 0.25);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+}
+
+/* CARD TEXT */
+
+.home-project-card h3,
+.skill-card span,
+.detail-card .dc-value,
+.proj-card .proj-title,
+#certificates .proj-title {
+  color: #ffffff !important;
+}
+
+/* BUTTONS */
+
+.btn-primary,
+#contact .cf-submit {
+  background: linear-gradient(
+    110deg,
+    #9857c6,
+    #d27bb7
+  ) !important;
+  color: white !important;
+  border: none;
+  box-shadow: 0 8px 24px rgba(189, 100, 205, 0.25);
+}
+
+.btn-primary:hover,
+#contact .cf-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(210, 123, 183, 0.4);
+}
+
+/* OUTLINE BUTTONS */
+
+.btn-secondary,
+.filter-btn,
+.link-chip {
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: #f4d4ff !important;
+  border: 1px solid #b982d8 !important;
+}
+
+/* LINKS AND LABELS */
+
+.home-project-link,
+.home-view-more a,
+.proj-link,
+.dc-label,
+.contact-detail-label,
+.skills-label {
+  color: #e9a5ed !important;
+}
+
+/* PROGRESS BARS */
+
+.progress-fill {
+  background: linear-gradient(
+    90deg,
+    #8e5ad4,
+    #d27bb7,
+    #9baeff
+  ) !important;
+}
+
+/* CONTACT INPUTS */
+
+#contact .cf-input {
+  background: rgba(15, 10, 38, 0.8) !important;
+  border: 1px solid #73528f !important;
+  color: white !important;
+}
+
+/* FOOTER */
+
+footer {
+  background: #130d30 !important;
+  color: #d8c3e5 !important;
+  border-top: 1px solid #614677;
+}
+
+/* =====================================
+   PINTEREST PURPLE-PINK THEME
+   ALL PORTFOLIO PAGES
+===================================== */
+
+/* SAME BACKGROUND ON EVERY PAGE */
+
+#about,
+#skills,
+.projects-section,
+#projects,
+#certificates,
+#contact {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      ellipse at 85% 15%,
+      rgba(223, 129, 188, 0.35),
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 10% 65%,
+      rgba(137, 85, 198, 0.42),
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 75% 85%,
+      rgba(111, 142, 224, 0.28),
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #130d30 0%,
+      #291944 40%,
+      #3c285c 70%,
+      #161535 100%
+    ) !important;
+
+  color: #ffffff !important;
+}
+
+/* HEADINGS */
+
+#about h2,
+#skills h2,
+.projects-section h2,
+#projects h2,
+#certificates h2,
+#contact h2 {
+  color: #ffffff !important;
+}
+
+/* PINK ACCENT */
+
+#about .section-title span,
+#skills .skills-title span,
+.projects-section .projects-header h2 span,
+#certificates .section-header h2 span,
+#contact .section-title span {
+  color: #e9a5ed !important;
+}
+
+/* PARAGRAPHS */
+
+#about p,
+#skills p,
+.projects-section p,
+#projects p,
+#certificates p,
+#contact p {
+  color: #e0cfe9 !important;
+}
+
+/* PROFESSIONAL GLASS CARDS */
+
+#about .detail-card,
+#about .subjects-strip,
+#skills .skill-card,
+.projects-section .proj-card,
+#projects .proj-card,
+#certificates .proj-card,
+#contact .contact-info-panel,
+#contact .contact-form-panel {
+  background: rgba(31, 22, 62, 0.88) !important;
+  border: 1px solid rgba(233, 165, 237, 0.28) !important;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(9, 4, 28, 0.25);
+  backdrop-filter: blur(12px);
+}
+
+/* CARD HEADINGS AND VALUES */
+
+#about .dc-value,
+#skills .skill-top,
+.projects-section .proj-title,
+#projects .proj-title,
+#certificates .proj-title,
+#contact .contact-detail-value {
+  color: #ffffff !important;
+}
+
+/* PINK LABELS AND LINKS */
+
+#about .dc-label,
+#skills .skills-label,
+.projects-section .proj-link,
+#projects .proj-link,
+#certificates .proj-link,
+#contact .contact-detail-label {
+  color: #e9a5ed !important;
+}
+
+/* SKILL PROGRESS BARS */
+
+#skills .progress-fill {
+  background: linear-gradient(
+    90deg,
+    #8e5ad4,
+    #d27bb7,
+    #9baeff
+  ) !important;
+}
+
+/* FILTER BUTTONS */
+
+.projects-section .filter-btn,
+#projects .filter-btn,
+#certificates .filter-btn {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border: 1px solid #b982d8 !important;
+  color: #ffffff !important;
+  border-radius: 25px;
+  padding: 10px 18px;
+}
+
+.projects-section .filter-btn:hover,
+.projects-section .filter-btn.active,
+#projects .filter-btn:hover,
+#projects .filter-btn.active,
+#certificates .filter-btn:hover,
+#certificates .filter-btn.active {
+  background: #a65bc2 !important;
+  color: white !important;
+}
+
+/* CONTACT FORM INPUTS */
+
+#contact .cf-input {
+  background: rgba(15, 10, 38, 0.8) !important;
+  border: 1px solid #73528f !important;
+  color: #ffffff !important;
+}
+
+/* SEND MESSAGE BUTTON */
+
+#contact .cf-submit {
+  background: linear-gradient(
+    110deg,
+    #9857c6,
+    #d27bb7
+  ) !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+/* FOOTER */
+
+footer {
+  background: #130d30 !important;
+  color: #e0cfe9 !important;
+  border-top: 1px solid #614677;
+}
